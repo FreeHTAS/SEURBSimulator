@@ -1,3 +1,4 @@
+//Okay so this is where new classes are made???
 import "../../../SBURBSim.dart";
 import "Bard.dart";
 import "Grace.dart";
@@ -20,6 +21,7 @@ import "Waste.dart";
 import "Witch.dart";
 import "Muse.dart";
 import "Lord.dart";
+import "Spy.dart";
 import "../../../Lands/FeatureTypes/QuestChainFeature.dart";
 import "../../../Lands/Reward.dart";
 import "../../../Lands/Quest.dart";
@@ -47,6 +49,7 @@ class SBURBClassManager {
     static SBURBClass MUSE;
     static SBURBClass LORD;
     static SBURBClass SMITH;
+    static SBURBClass SPY;
 
     //did you know that static attributes are lazy loaded, and so you can't access them until
     //you interact with the class? Yes, this IS bullshit, thanks for asking!
@@ -72,6 +75,7 @@ class SBURBClassManager {
         MUSE = new Muse();
         LORD = new Lord();
         SMITH = new Smith();
+        SPY = new Spy();
 
         NULL = new SBURBClass("Null", 255, false, isInternal:true);
     }

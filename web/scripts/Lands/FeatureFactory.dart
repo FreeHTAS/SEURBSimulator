@@ -60,6 +60,7 @@ class FeatureFactory {
     static SmellFeature OZONESMELL;
     static SmellFeature BLOODSMELL;
     static SmellFeature SMOKESMELL;
+    static SmellFeature OAKYSMELL;
 
     ////////////////////FEELINGS//////////////////////
     static AmbianceFeature CREEPYFEELING;
@@ -81,6 +82,7 @@ class FeatureFactory {
     static AmbianceFeature ROMANTICFEELING;
     static AmbianceFeature LUCKYFEELING;
     static AmbianceFeature ANGRYFEELING;
+    static AmbianceFeature SKETCHYFEELING;
 
 
     ///////////////////SOUNDS////////////////////////
